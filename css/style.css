@@ -1,0 +1,23 @@
+:root {
+  --primary-color: #407bff;
+  --background-color: #ffffff;
+  --title-color: #000000;
+  --description-color: #939393;
+  --icon-color-light-green: #6fe7dd;
+  --icon-color-yellow: #ffc93c;
+  --icon-color-red: #f73859;
+  --icon-color-purple-blue: #407bff;
+
+  --text-font: "Nunito", sans-serif;
+}
+@font-face {
+  font-family: var(--text-font);
+  src: url("../fonts/Nunito/Nunito-Italic-VariableFont_wght.ttf")
+    format("woff2") url("../fonts/Nunito/Nunito-VariableFont_wght.ttf")
+    format("woff");
+}
+
+h1 {
+  font-family: var(--text-font);
+  color: var(--icon-color-red);
+}
